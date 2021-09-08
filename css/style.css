@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+*{
+  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+/* -------------- */
+/* header section */
+/* -------------- */
+.header{
+   min-height: 150vh;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header .navigation{
+    min-height: 16vh;
+  margin: auto;
+}
+.header .navigation .navbar-brand{
+   font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 7vh;
+}
+.header .navigation ul li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.3vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 7vh;
+    margin-right: 1.5vw;
+    opacity: 1;
+}
+.header .navigation ul li a:hover{
+    color:  #212121;
+    opacity: .7;
+}
+
+.header .details {
+    min-height: 72vh;
+    margin-left:40vw;
+    margin-top:50vh;
+    
+}
+.header .details h1 {
+   font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size:5vw;
+    font-weight: 900;
+    padding-left: 10vw;
+    padding-top: 3vw;
+    
+}
+
+.header .details p{ 
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size:1.2vw;
+    font-weight: 400;
+    padding-top: 5vh;
+    text-align:right;
+}
+.header .details .btn{
+
+   font-family: 'Source Sans Pro', sans-serif; 
+    color: #212121;
+    font-size:1.2vw;
+    font-weight: 600;
+    border: 1px solid #212121;
+   margin-top: 3vh;
+    float: right;
+    padding: .5vw 5vw;
+   
+}
+
+/* -------------- */
+/* question section */
+/* -------------- */
+
+.question-part{
+    min-height: 70vh;
+   
+}
+.question-part img {
+  margin-left: 39vw;
+    margin-top: 14vh;
+}
+.question-part h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3vh;
+}
+.question-part p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 7vh;
+    margin-left: 1.5vw;
+    margin-right:1.5vw;
+}
+
+/* -------------- */
+/* feature section */
+/* -------------- */
+
+.feature-section{
+    min-height: 60vh;
+    background: #efefef;
+
+}
+.feature-section .feature {
+    padding-top: 15vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.feature-section .feature .row{
+    min-height: 45vh;
+   
+}
+.feature-section .feature .row .col-4 img{
+   margin-top: 3vh;
+}
+.feature-section .feature .row .col-4 h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.4vw;
+    font-weight: 600;
+    margin-top: 4vh;
+}
+.feature-section .feature .row .col-4 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: 4vh;
+    padding-right:4vw;
+    text-align: justify;
+}
+/* ------------------------  */
+/* featured article section  */
+/* ------------------------  */
+
+.article-section{
+    min-height: 120vh;
+    background-color: #ffffff;
+}
+.article-section .jumbotron{
+    text-align: center;
+ padding-left: 10vw;
+    padding-right: 10vw;
+    background: #ffff;
+}
+.article-section .jumbotron h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 2vw;
+    font-weight: 700;
+    
+}
+.article-section .jumbotron p{
+     font-family: 'Source Sans Pro', sans-serif;
+    color: #212121;
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin-top: 3vh;
+    
+}
+.article-section .row{
+    min-height: 65vh;
+    padding-top: 15vh;
+    padding-left: 7vw;
+   
+}
+.article-section .row .col-3{
+    background: #222222;
+   margin: 1vw 2vw;
+}
+.article-section .row .col-3 .heading {
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #eeeeee;
+    text-transform: uppercase;
+    margin-top: 7vh;
+
+}
+.article-section .row .col-3 h5{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #eeeeee;
+    
+}
+.article-section .row .col-3 .media{
+    padding-top: 7vh;
+    margin-left: 1.5vw;
+}
+.article-section .row .col-3 .media .media-body h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    color: #eeeeee;
+    text-transform: uppercase;
+    margin-top: 4vh;
+}
+.article-section .row .col-3 .media .media-body p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    color: #eeeeee;
+   
+}
+
+/* -------------- */
+/*client section */
+/* -------------- */
+
+.client-section{
+    min-height: 60vh;
+    background: #efefef;
+}
+.client-section h4{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #212121;
+    text-align: center;
+   padding-top: 7vh;
+}
+.client-section .row {
+    padding: 4vh 8vw;
+}
+.client-section .row .col-2 img{
+    padding-top:  10vh;
+  
+}
+
+/* --------------   */
+/* portfolio section */
+/* --------------    */
+
+.portfolio-section{
+    min-height: 140vh;
+   
+}
+.portfolio-section .jumbotron{
+    text-align: center;
+ padding-left: 10vw;
+    padding-right: 10vw;
+    background: #ffff;
+   
+}
+.portfolio-section .jumbotron h4{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #212121;
+}
+
+.portfolio-section .jumbotron p{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #212121;
+    margin-top: 5vh;
+}
+
+.portfolio-section .jumbotron img{
+    margin-top: 7vh;
+}
+.portfolio-section .menu-bar a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #212121;
+}
+.portfolio-section .row{
+   min-height: 55vh;
+   margin-top: 5vh;
+    margin-left: 5vw;
+ 
+}
+.portfolio-section .row .col-3 img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.portfolio-section .dot-sign{
+    text-align: center;
+    margin-top: 8vh;
+}
+
+/* --------------   */
+/* portfolio section */
+/* --------------    */
+
+.satisfy{
+    min-height: 45vh;
+    background: #212121;
+}
+.satisfy .detailes{
+    text-align: center;
+    padding: 3vw 13vw;
+}
+.satisfy .detailes img{
+    margin-top: 5vh;
+}
+.satisfy .detailes p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #eeeeee;
+    margin-top: 5vh;
+}
+.satisfy .detailes h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.4vw;
+    color: #eeeeee;
+    margin-top: 7vh;
+}
+
+/* -----------------   */
+/* team-info section   */
+/* -----------------   */
+
+.team-info{
+    min-height: 95vh;
+    
+}
+.team-info .jumbotron{
+    text-align: center;
+   padding-left: 10vw;
+    padding-right: 10vw;
+    background: #ffffff;
+   
+   
+}
+.team-info .jumbotron h4{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #212121;
+}
+
+.team-info .jumbotron p{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: #212121;
+    margin-top: 6vh;
+}
+.team-info .row{
+   
+    min-height: 45vh;
+   
+}
+.team-info .row .col-3 .card{
+    border: none;
+}
+.team-info .row .col-3 .card img{
+ margin-top: 3vh;
+    margin-left: 5vw;
+}
+.team-info .row .col-3 .card-body h4{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #212121;
+    text-align: center;
+    margin-top: 4vh;
+    text-transform: uppercase;
+}
+.team-info .row .col-3 .card-body p{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: #212121;
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+/* -----------------   */
+/* facts section       */
+/* -----------------   */ 
+
+.facts-number{
+    min-height: 100vh;
+    background-image: url(../images/facts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.facts-number h4{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 15vh;
+}
+.facts-number .box{
+   margin-top: 10vh;
+    margin-left:23vw;
+  background: #8a8a8a;
+}
+.facts-number .box .row{
+    padding-top: 7vh;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    text-align: center;
+}
+.facts-number .box .row .col-6 h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    color: #eeeeee;
+}
+.facts-number .box .row .col-6 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1.7vw;
+    color: #eeeeee;
+}
+
+/* -----------------   */
+/* gallary section       */
+/* -----------------   */ 
+
+.gallary{
+    min-height: 185vh;
+    
+}
+.gallary .image{
+padding-top: 10vh;
+}
+.gallary .image .row{
+    padding-top: 5vh;
+}
+.gallary .image .row .col-6 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+    padding-left: 5vw;
+    padding-right: 6vw;
+    padding-top: 6vh;
+    text-align: center;
+    color: #212121;
+}
+.gallary .image .row .col-6 h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:600;
+    font-size: 2vw;
+    text-align: center;
+    color: #212121;
+}
+.gallary .image .row .col-6 img{
+    width: 38vw;
+   height:50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* -----------------   */
+/*last-layer section   */
+/* -----------------   */ 
+
+
+.last-layer{
+    min-height: 70vh;
+  background: #efefef;
+   
+}
+.last-layer .box{
+    text-align: center;
+   padding-top: 8vh;
+    margin-left: 25vw;
+   
+}
+.last-layer .box p a{
+    color: #212121;
+    font-size: 2vw;
+    
+}
+.last-layer .box p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1.4vw;
+   color: #212121;
+    margin-top: 5vh;
+}
+.last-layer .box img{
+    margin-top: 5vh;
+}
+.last-layer .box h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+    font-size: 1.2vw;
+   color: #212121;
+    margin-top: 5vh;
+
+}
+
+/* -----------------   */
+/* footer section       */
+/* -----------------   */ 
+
+.footer-section{
+    min-height:85vh;
+    background: #212121; 
+}
+.footer-section .footer{
+    padding-top: 8vh;
+}
+.footer-section .row .col-6 h4{
+   font-family: 'Source Sans Pro', sans-serif;
+    font-weight:700;
+    font-size: 1.6vw;
+   color: #eeeeee;
+    margin-top: 5vh; 
+    margin-left: 5vw;
+}
+.footer-section .row .col-6 p{
+   font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    margin-top: 5vh;
+    margin-right: 4vw;
+}
+.footer-section .row .col-6 .col input{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    margin-top: 5vh; 
+    text-transform: uppercase;
+    background: #212121; 
+border: 1px solid #eeeeee; 
+  
+}
+.footer-section .row .col-6 .form-group textarea{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    text-transform: uppercase;
+    background: #212121; 
+border: 1px solid #eeeeee; 
+  
+}
+.footer-section .row .col-6 .btn{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    text-transform: uppercase;
+    background: #212121; 
+border:.5px solid #eeeeee; 
+    padding: 1vw 3vw;
+  
+}
+.footer-section .row .col-2 h5{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:600;
+    font-size: 1.2vw;
+   color: #eeeeee;
+    text-transform: uppercase;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.footer-section .row .col-2 ul{
+    margin-left: 5vw;
+   
+    margin-top: 5vh;
+}
+.footer-section .row .col-2 ul li{
+     font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    text-transform: capitalize;
+     list-style: none;
+    padding: .3vw 1vw;
+}
+.footer-section p{
+    margin-top: 2vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size: 1vw;
+   color: #eeeeee;
+    
+}
